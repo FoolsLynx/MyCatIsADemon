@@ -1,2 +1,3 @@
-# MyCatIsADemon
-The Source code a small project called "My Cat is a Demon"
+# My Cat Is A Demon
+
+Made in GameMaker Studio 2
