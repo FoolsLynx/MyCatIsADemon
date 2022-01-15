@@ -35,6 +35,15 @@ function InputManager() constructor {
 		input_default_gamepad_button(gp_face2, "cancel");
 		input_default_gamepad_button(gp_face3, "menu");
 	}
+	
+	static beginStep = function() {
+		input_tick();	
+	}
+	
+	static setInputBindings = function(_bindings) {
+		input_bindings_read(_bindings);
+		input_bindings = input_bindings_write();
+	}
 }
 
 

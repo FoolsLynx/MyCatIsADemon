@@ -1,0 +1,1 @@
+function clamp01(_value) { return clamp(_value, 0.0, 1.0); }
